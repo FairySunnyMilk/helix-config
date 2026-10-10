@@ -1,0 +1,18 @@
+theme = "kanagawa"
+
+[editor]
+scrolloff = 30
+line-number = "relative"
+gutters = ["line-numbers", "spacer", "diff"]
+completion-timeout = 5
+bufferline = "multiple"
+
+[editor.cursor-shape]
+insert = "bar"
+select = "underline"
+
+[keys.normal]
+";" = "command_mode"
+
+[keys.insert]
+j = { k = "normal_mode" }
